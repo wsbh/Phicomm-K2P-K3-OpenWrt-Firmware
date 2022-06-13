@@ -37,6 +37,11 @@ rm -rf package/lean/luci-app-smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 echo '=========Add smartdns plug OK!========='
 
+echo '添加adg'
+rm -rf package/lean/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-adguardhome
+echo '=========Add smartdns plug OK!========='
+
 echo '添加lwz322的K3屏幕插件'
 rm -rf package/lean/luci-app-k3screenctrl
 git clone https://github.com/yangxu52/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
